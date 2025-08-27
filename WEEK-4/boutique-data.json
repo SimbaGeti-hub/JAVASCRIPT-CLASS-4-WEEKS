@@ -1,0 +1,62 @@
+{
+  "categories": [
+    { "id": 1, "name": "Clothing" },
+    { "id": 2, "name": "Accessories" },
+    { "id": 3, "name": "Footwear" }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Floral Summer Dress",
+      "description": "Lightweight cotton dress with floral print.",
+      "price": 49.99,
+      "categoryId": 1,
+      "image": "https://example.com/images/dress.jpg",
+      "stock": 12
+    },
+    {
+      "id": 102,
+      "name": "Leather Handbag",
+      "description": "Genuine leather handbag with gold accents.",
+      "price": 89.99,
+      "categoryId": 2,
+      "image": "https://example.com/images/handbag.jpg",
+      "stock": 5
+    },
+    {
+      "id": 103,
+      "name": "Canvas Sneakers",
+      "description": "Comfortable sneakers for everyday wear.",
+      "price": 59.99,
+      "categoryId": 3,
+      "image": "https://example.com/images/sneakers.jpg",
+      "stock": 20
+    },
+    {
+      "id": 104,
+      "name": "Silk Scarf",
+      "description": "Elegant silk scarf with abstract pattern.",
+      "price": 29.99,
+      "categoryId": 2,
+      "image": "https://example.com/images/scarf.jpg",
+      "stock": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice N.",
+      "email": "alice@example.com",
+      "cart": [
+        { "productId": 101, "quantity": 1 },
+        { "productId": 104, "quantity": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brian K.",
+      "email": "brian@example.com",
+      "cart": []
+    }
+  ]
+}
